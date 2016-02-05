@@ -97,7 +97,6 @@ public class Main {
                     HttpEntity resEntity = response.getEntity();
 
                     String responseText = EntityUtils.toString(resEntity);
-                    logger.debug("google url : " + folderSearchUrl);
                     logger.debug("google json response : " + responseText);
 
                     // reading the content
@@ -143,9 +142,6 @@ public class Main {
                     Runtime rt = Runtime.getRuntime();
                     rt.exec("attrib +S +H \"" + folderIco.getAbsoluteFile() + "\"");
                     rt.exec("attrib +S \"" + file.getAbsoluteFile() + "\"");
-
-                    System.out.println("executing " + "attrib +S \"" + folderIco.getAbsoluteFile() + "\"");
-                    System.out.println("executing " + "attrib +S \"" + file.getAbsoluteFile() + "\"");
                 } catch (Exception e) {
                     logger.error(e.getMessage(), e);
                 }

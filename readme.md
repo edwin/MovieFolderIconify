@@ -19,4 +19,4 @@ How to Build
 
 Result
 -------------------
-[![New Movie Folder Icon](https://raw.githubusercontent.com/edwinkun/MovieFolderIconify/master/img/videos.PNG]
+![new movie folder icon](https://github.com/edwinkun/MovieFolderIconify/raw/master/img/videos.PNG)
